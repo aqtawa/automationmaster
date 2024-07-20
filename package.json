@@ -1,0 +1,26 @@
+{
+  "name": "autotestshw",
+  "version": "1.0.0",
+  "description": "The cypress end-to-end tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "open": "cypress open",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {},
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.2",
+    "allure-commandline": "^2.29.0",
+    "allure-cypress": "^3.0.0-beta.7",
+    "cypress": "^13.13.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^4.9.5"
+  }
+}
